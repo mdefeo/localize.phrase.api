@@ -19,12 +19,20 @@
 1. Write to TS config file
    1. Define directories, etc.
 2. Create data file
-   1. Use Google Translate to create phrases
-   2. Created/Updated dates are all the same
 3. Create index file
 4. Create skeleton routes file
+
+### Third commit
+
+1. Create routes/endpoints
+
+### Fourth commit
 
 ## Notes
 
 - Main is the only branch created for this challenge
-- 
+- Created/Updated dates in data file are all the same
+- Google Translate used to translate phrases
+- Search route is defined first so it is not hijacked by ID endpoint
+  - Regex could also be used but, for the purposes of this coding challenge, I have simply reordered it
+- Testing done in Postman
