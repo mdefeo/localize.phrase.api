@@ -1,4 +1,5 @@
 // /src/data.ts
+
 export interface Phrase {
   id: number;
   phrase: string;
