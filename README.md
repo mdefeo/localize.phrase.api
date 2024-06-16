@@ -22,7 +22,7 @@
    1. Use Google Translate to create phrases
    2. Created/Updated dates are all the same
 3. Create index file
-4. Create skeleton index file
+4. Create skeleton routes file
 
 ## Notes
 
