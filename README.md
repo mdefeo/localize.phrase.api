@@ -12,6 +12,7 @@ This project is a simple Phrase Search API built using Node.js, Express, and Typ
     - [GET /phrase/{id}](#get-phraseid)
     - [GET /phrase/{id}/{language}](#get-phraseidlanguage)
     - [GET /phrase/search](#get-phrasesearch)
+  - [Running Tests](#running-tests)
   - [Notes](#notes)
   - [License](#license)
 
@@ -109,6 +110,16 @@ GET /phrase/search?query=Hi&status=active
   }
 ]
 ```
+
+## Running Tests
+
+To run the tests, use the following command:
+
+```sh
+npx jest
+```
+
+This will run the unit tests and integration tests for the API.
 
 ## Notes
 
