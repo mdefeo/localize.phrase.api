@@ -31,8 +31,7 @@ router.get('/phrase/:id', (req: Request, res: Response) => {
   const phrase = phrases.find(p => p.id === id);
   if (phrase) {
     const { translations, ...phraseWithoutTranslations } = phrase;
-    // res.json(phraseWithoutTranslations);
-    res.json(phrase);
+    res.json(phraseWithoutTranslations);
   } else {
     res.status(404).json({ message: "No phrase with this ID was found." });
   }

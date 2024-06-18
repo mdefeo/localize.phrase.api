@@ -10,11 +10,11 @@ app.use(express.json());
 app.use('/api', routes);
 
 describe('Phrase API', () => {
-  it('should return a phrase object with translations', async () => {
+  it('should return a phrase object without translations', async () => {
     const res = await request(app).get('/api/phrase/1');
     expect(res.status).toBe(200);
     expect(res.body).toHaveProperty('id', 1);
-    // expect(res.body).not.toHaveProperty('translations');
+    expect(res.body).not.toHaveProperty('translations');
   });
 
   it('should return a translation of a phrase', async () => {
