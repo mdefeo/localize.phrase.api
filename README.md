@@ -1,6 +1,6 @@
 # Localize Phrase Search API
 
-This project is a simple Phrase Search API built using Node.js, Express, and TypeScript. It provides endpoints to manage and search phrases with translations in multiple languages. The API allows users to search for phrases,
+This project is a simple Phrase Search API built using Node.js, Express, and TypeScript. It provides endpoints to manage and search phrases with translations in multiple languages. The API allows users to search for phrases and by id. You can also return only one language.
 
 ## Table of Contents
 
